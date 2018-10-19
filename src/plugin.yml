@@ -1,7 +1,7 @@
 name: AFactionStrike
 main: org.asmaster.fstrike.FSMain
 depend: [Factions]
-version: 1.0
+version: 1.2
 author: ASMaster
 description: Plugin to give a faction a strike.
 commands: 
@@ -11,4 +11,6 @@ commands:
           
 permissions:
       afactionstrike.give:
+          default: false
+      afactionstrike.list:
           default: false
